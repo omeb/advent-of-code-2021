@@ -1,9 +1,5 @@
-export default (measurements) => {
-  let count = 0;
-  for (let i = 1; i < measurements.length; i++) {
-    if (measurements[i] > measurements[i - 1]) {
-      count++;
-    }
-  }
-  return count;
-};
+export default (measurements) =>
+  measurements.filter((currMeasurement, currIndex, array) => {
+    const prevMeasurement = array[currIndex - 1];
+    return currIndex > 0 && currMeasurement > prevMeasurement;
+  }).length;
