@@ -1,5 +1,5 @@
 # advent-of-code-2021
-My solutions for advent of code 2021
+My solutions for [advent of code 2021](https://adventofcode.com/2021/) puzzles.
 
 ## How to run
 You shouldn't care much about running this project, as it only contains my proposed solutions + some basic tests. You can just browse through the solutions as you please. However, if you do wish to run the tests on this project for an unapparent reason, then go ahead 🙂
