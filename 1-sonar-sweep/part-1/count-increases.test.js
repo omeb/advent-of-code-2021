@@ -1,4 +1,4 @@
-import data from './input.json';
+import data from '../input.json';
 import countIncreases from './count-increases';
 
 test('should count increased measurements', () => {

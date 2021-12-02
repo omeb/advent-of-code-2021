@@ -1,4 +1,4 @@
-import countIncreases from './count-increases';
+import countIncreases from '../part-1/count-increases';
 
 export default (measurements) => {
   const slidingWindows = [];
